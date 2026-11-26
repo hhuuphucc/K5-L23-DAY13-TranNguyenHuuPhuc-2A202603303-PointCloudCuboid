@@ -89,6 +89,6 @@ Phần tự kiểm: `selfcheck` còn cờ 5 cuboid trong bản nộp và tôi gi
 ## 6. Ý nghĩa của nhãn, cách dùng AI và điều còn chưa chắc
 (a) Model học trên nhãn 3D phải biết vị trí, kích thước, hướng của vật bằng mét thật để dùng cho lái xe tự động; nhãn pixel không cho biết khoảng cách thật và đổi theo camera. Vật thưa điểm cần quy tắc riêng (vẽ khi thấy ≥ 15–20% thể tích, còn lại bỏ qua và ghi báo cáo) để model không học từ cuboid đoán mò.
 
-(b) Dùng AI: Claude Code. Câu hỏi chính: tính z đáy, r, đối chiếu kích thước với bảng 4.3 từ file `bangA.csv` và `tukiem.csv`, rồi điền vào báo cáo. Tôi kiểm lại các con số với hai file CSV và ảnh trước khi nộp.
+(b) Dùng AI: Claude Code. Câu hỏi chính: tính z đáy
 
 (c) Điều còn chưa chắc: độ cao đáy của các xe xa trên 25 m (s04f39 idx 3, 4), vì không rõ mặt đường ở đó thực sự thấp hơn hay cuboid bị đặt sai; và các xe bị che trong cụm xe đông ở s01f58 (idx 7–12).
